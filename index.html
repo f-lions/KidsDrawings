@@ -1,0 +1,100 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<span id="proName" style="font-size: 40px; position: absolute;top: 1%; font-family: Fire Sans Pro"></span>
+<link rel="stylesheet" type="text/css" href="fs font.css">
+<script src="1.js"></script>
+	<script type="text/javascript" src="2.js"></script>
+
+  <style type="text/css">body {  -webkit-touch-callout: none; /* iOS Safari */ 
+    -webkit-user-select: none; /* Safari */ 
+     -khtml-user-select: none; /* Konqueror HTML */ 
+       -moz-user-select: none; /* Firefox */ 
+        -ms-user-select: none; /* Internet Explorer/Edge */ 
+            user-select: none; /* Non-prefixed version, currently
+                 supported by Chrome and Opera */ 
+                 margin: 1px
+} 
+}</style>
+  
+<link rel="shortcut icon" type="image/x-icon" href="KIDSFAV.png">
+
+  
+  
+  <p id="pro"></p>
+  
+<style>
+*{font-family:sans-serif;}
+
+#settings { display: block; text-align:center}
+
+
+#paint {border: 1px solid black; background : #333333; margin-left: auto; margin-right: auto; display: block;}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Google+Sans">
+</head>
+<body translate="no" style="font-family: Google Sans">
+  <div id="sketch">
+  	<div id="onl" width="1000" height="1080" style="background-color: black;cursor:crosshair;"></div>
+  <canvas name = "drawing.png"  id="paint" width="1100" height="1080" style="background-color: black;cursor:crosshair;position: absolute;top: 15%;"></canvas>
+  <style type="text/css">
+  	.down {
+background-color: #E92727;border:0px;
+  	}
+  </style>
+ <button class="down" onclick="downloadCanvas()" style="position: absolute; right: 45%;top: 90%;width: 100px;height: 75px; box-shadow: 0px 0px 6px 6px #ffff;color: #ffff;font-size: 20px;" onclick="prompt('Are You sure?')">Download Your drawing</button>
+</div>
+
+<div id="settings" name ="colorPalet" style="position: absolute; right: 90%;top: 50%;">
+	
+	 <button onclick="getColor('purple');" style="border: 0px;width: 50px;height: 50px;padding: 10px 10px;color: white;background-color: purple;font-family: Google Sans; border-radius: 50%; font-size: 25px"></button>
+	 <button onclick="getColor('orange');" style="border: 0px;width: 50px;height: 50px;padding: 10px 10px;color: white;background-color: orange;font-family: Google Sans; border-radius: 50%; font-size: 25px"></button>
+ <button onclick="getColor('yellow');" style="border: 0px;width: 50px;height: 50px;padding: 10px 10px;color: white;font-family: Google Sans; border-radius: 50%; font-size: 25px;background-color: yellow"></button>
+
+  <button onclick="getColor('blue');" style="border: 0px;background-color: #0000FF; width: 50px;height: 50px;padding: 10px 10px;color: white;font-family: Google Sans; border-radius: 50%; font-size: 25px"></button>
+  <button onclick="getColor('red');" style="border: 0px;background-color: #FE0000; width: 50px;height: 50px;padding: 10px 10px;color: white;font-family: Google Sans; border-radius: 50%; font-size: 25px"></button>
+  <button onclick="getColor('green');" style="border: 0px;background-color: green; width: 50px;height: 50px;padding: 10px 10px;color: white;font-family: Google Sans; border-radius: 50%; font-size: 25px"></button>
+  <button onclick="getColor('white');" style="border: 0px;width: 50px;height: 50px;padding: 10px 10px;color: black;font-family: Google Sans; border-radius: 50%; font-size: 25px;background-color: white;"></button>
+  <button onclick="getColor('#000000');" style="border: 0px;width: 50px;height: 50px;padding: 10px 10px;color: black;font-family: Google Sans; border-radius: 50%; font-size: 25px;background-color: black;border:1px solid white;"></button>
+</div>
+<style type="text/css">
+	.s {
+		width: 65px ;height:50px;padding: 2px 2px;background-color: white;
+border: 0px; font-family: Fire Sans Pro;font-size: 20px;box-shadow: 0px 0px 2px 2px #111; ;	}
+</style>
+<div id="settings" style="position: absolute;right: 2%;top: 5%;"> 
+  <button onclick="getSize('2');" class="s">Small</button>
+  <button onclick="getSize('5');" class="s">Med</button>
+  <button onclick="getSize('10');" class="s">Large</button>
+  <button onclick="getSize('20');" class="s">X Large</button>
+  <button onclick="red()" class="s">Background red</button>
+<button onclick="white()" class="s">Background white</button>
+<button onclick="blue()" class="s">Background Blue</button>
+<button onclick="green()" class="s">Background green</button>
+<button onclick="square()" class="s">Sqaure</button>
+<button onclick="rew()" class="s">Resize canvas (width)</button>
+<button onclick="reh()" class="s">Resize canvas (height)</button>
+<button onclick="anyColor()" class="s">Your own</button>
+<button onclick="sGd()">Preview</button>
+</div>
+    <script src="main.js"></script>
+
+  
+      <script id="rendered-js" src="3.js">
+    </script>
+
+
+ 
+ 
+</body></html>

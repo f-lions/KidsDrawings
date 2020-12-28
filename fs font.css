@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fire Sans Pro';
+    src: url('FireSansPronormal.woff2') format('woff2'),
+        url('FireSansPronormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
